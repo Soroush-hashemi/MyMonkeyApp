@@ -2,16 +2,12 @@ using System;
 
 namespace MyMonkeyApp.Model;
 
+/// <summary>
+/// Represents a monkey species with name, location, and population data.
+/// </summary>
 public class Monkey
 {
-    public Monkey(string name, string location, int population)
-    {
-        Name = name;
-        Location = location;
-        Population = population;
-    }
-
-    public string Name { get; set; } = null!;
-    public string Location { get; set; } = null!;
+    public string Name { get; set; } = string.Empty;
+    public string Location { get; set; } = string.Empty;
     public int Population { get; set; }
 }
