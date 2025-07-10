@@ -17,7 +17,7 @@ A fun console application to explore monkey species with ASCII art visualization
 
 ### Installation
 ```bash
-git clone [https://github.com/Soroush-hashemi/MyMonkeyApp.git]
+git clone https://github.com/Soroush-hashemi/MyMonkeyApp.git
 cd MyMonkeyApp/MyMonkeyApp
 dotnet build 
 dotnet run 
