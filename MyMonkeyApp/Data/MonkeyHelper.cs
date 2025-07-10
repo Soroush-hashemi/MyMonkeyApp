@@ -50,7 +50,7 @@ public static class MonkeyHelper
     /// </summary>
     /// <param name="name">The name of the monkey</param>
     /// <returns>Formatted ASCII art string</returns>
-    static string GetMonkeyAscii(string name)
+    public static string GetMonkeyAscii(string name)
     {
         return name.ToLower() switch
         {
